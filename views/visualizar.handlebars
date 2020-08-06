@@ -1,0 +1,32 @@
+<ul type='circle'>
+    <li>
+    <a href="/">Inicio</a>
+    </li>
+</ul>
+<table>
+    <tr>
+        <td class="action">Ação</td>
+        <td class="id">Id</td>
+        <td class="nome">Nome</td>
+        <td>Descrição</td>
+        <td class="marca">Marca</td>
+        <td class="modelo">Modelo</td>
+        <td>Preço</td>
+    </tr>
+
+    {{#data}}
+        <tr>
+            <td class="action">
+                <a href="/atualizar/{{id}}"><img src="/img/atualizar.png"></a>
+                <a href="/deletar/{{id}}"><img src="/img/delete.jpg"></a>
+            </td>
+            <td class="id">{{id}}</td>
+            <td class="nome">{{nome}}</td>
+            <td>{{descricao}}</td>
+            <td class="marca">{{marca}}</td>
+            <td class="modelo">{{modelo}}</td>
+            <td>{{preco }}</td>
+        </tr>
+    {{/data}}
+</table><br>
+

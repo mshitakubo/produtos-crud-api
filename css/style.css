@@ -1,0 +1,60 @@
+*{
+    font-family: Tahoma;
+}
+.head{
+    background-color: white;
+    width: 100%;
+}
+body {
+    margin: 30px;
+    background-color:#ccc;
+    
+}
+h1 {
+    color: black;
+}
+.header {
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans';
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder
+}
+.footer {
+    font-weight: bolder;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(245, 73, 73);
+    color: black;
+    text-align: center;
+  }
+
+img {
+    position:relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    left: 10%;
+    opacity: 0.6;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+table td {width: 25%;}
+.id{ width: 6%;}
+.action {width: 6%;}
+.nome{width: 20%;}
+.marca{width: 15%;}
+.modelo{width: 10%;}
+
+table tr:first-child {
+    background: #333;
+    color:white;
+    font-weight: bold;
+    padding: 15px;
+}
